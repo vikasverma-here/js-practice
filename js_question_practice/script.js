@@ -47,3 +47,36 @@
 
 // Q-5 = write a function to find the largest number in array 
 
+
+
+//  function  findlargestNumber  (arr){
+
+//     if (arr.lenght===0) {
+// return undefined;
+
+//     }
+// let largest = arr[0]
+// for ( let i = 1; i< arr.lenght ; i++){
+//     if (arr[i]>largest){
+
+//         largest = arr[i]
+//     }
+// }
+// return largest;
+
+//  }
+//  const number  = [3,2,5,3,45,4,,34,6,48,43,]
+//    const store = findlargestNumber(number)
+//    console.log(store)
+
+// const numbers = [3, 7, 2, 8, 5, 10, 1];
+
+// let largestNumber = numbers[0];
+
+// for (let i = 1; i < numbers.length; i++) {
+//   if (numbers[i] > largestNumber) {
+//     largestNumber = numbers[i];
+//   }
+// }
+
+// console.log(`The largest number is: ${largestNumber}`);
