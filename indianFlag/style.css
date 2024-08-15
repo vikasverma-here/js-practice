@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #b29f94;
+}
+
+
+.flag {
+    width: 450px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.orange, .white, .green {
+    height: 33.33%;
+    width: 100%;
+}
+
+.orange {
+    background-color: #FF9933;
+}
+
+.white {
+    background-color: white;
+    position: relative;
+}
+
+.green {
+    background-color: #138808;
+}
+
+.ashoka-chakra {
+    width: 70px;
+    height: 70px;
+    border: 3px solid #000080;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+}
+
+.ashoka-chakra::before, .ashoka-chakra::after {
+    content: "";
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #000080 inset;
+}
