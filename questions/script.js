@@ -315,3 +315,41 @@
 // }
 //  let main =  console.log( (addone()+ double())*2)
 // console.log(main)
+
+// let myPromise = new Promise(function(myResolve, myReject) {
+//     let x = 0;
+  
+//   // some code (try to change x to 5)
+  
+//     if (x == 0) {
+//       myResolve("OK");
+//     } else {
+//       myReject("Error");
+//     }
+//   });
+  
+//   myPromise.then(
+//     function(value) {myDisplayer(value);},
+//     function(error) {myDisplayer(error);}
+//   );
+
+
+// function myDispolay (some){
+//     document.querySelector("h1").innerHTML=some;
+
+// }
+
+// let myPromise = new Promise (function(resolve,reject){
+//     let x = 1;
+//     if(x==0){
+//         resolve('ok')
+//     }else{
+//         reject('error')
+//     }
+// })
+
+// myPromise
+// .then(
+//     function(value) {myDispolay(value)},
+//     function(error) {myDispolay(error)}
+// )
