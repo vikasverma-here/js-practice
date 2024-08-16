@@ -234,3 +234,84 @@
 
 //  console.log(btn)
 
+
+// write a funcion  wait that returns a promise which resolve after a given number of milisecond
+
+
+// console.log("hellow")
+// function wait (ms){
+//   return new Promise ((resolve,rej)=>{
+//     setTimeout(() => {
+//         resolve()
+//     },ms);
+//   })
+// }
+
+
+// wait(2000).then(()=>{
+//     console.log('Resolved after rwo second')
+// })
+
+// write a counter function that returns another function the returned function should increment a counter and return the current count 
+
+// function counter (count){
+//     let counter ;
+//     return (counter)=>{
+//         counter = counter+1
+       
+//     }
+// } 
+// console.log(counter())
+
+// write a higher-order function repeat that acceppts a function and number n and invokes  the function n times in js 
+
+// function repeat(callback){
+//     callback()
+// }
+
+// function call(){
+//     setInterval(() => {
+//         console.log("hellow")
+//     }, 1000);
+// }
+// console.log(repeat(call))
+
+// function repeat (fn , n){
+//  for(let i = 1; i<=n;i++){
+//     console.log( i, fn())
+//  }
+    
+    
+// }
+
+// function sayhellow (){
+// console.log("hellow")
+// }
+// console.log(repeat(sayhellow,6))
+
+// write a curried   function multiply that works like thi multtiply(2)*(3) return 6
+// function multiply (a){
+//     return function(b){
+//          return a*b
+//     }
+// }
+// console.log(multiply(2)(3))
+
+// immediately invoked  function expression
+
+// (function invoked (){
+//     console.log("imediately invoked ")
+// }())
+
+// function addone (){
+//     return 1;
+// }
+// function double (){
+//     return 2;
+// }
+
+// function compose(...fnss){
+  
+// }
+//  let main =  console.log( (addone()+ double())*2)
+// console.log(main)
