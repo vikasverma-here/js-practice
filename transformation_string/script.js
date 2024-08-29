@@ -3,6 +3,9 @@ const lower= document.getElementById("lowercase")
 const upper= document.getElementById("uppercase")
 const camal= document.getElementById("camalcase")
 const pascalcase= document.getElementById("pascalcase")
+const snakecase= document.getElementById("snakecase")
+const kababcase= document.getElementById("kababcase")
+const trimcase= document.getElementById("trimcase")
 
 
 
@@ -14,7 +17,9 @@ inputText.addEventListener('input',(e)=>{
    upper.innerHTML=e.target.value.toUpperCase();
    camalfn(e.target.value)
    pascal(e.target.value)
-   
+   snake(e.target.value)
+   kabab(e.target.value)
+   trim(e.target.value)
    // camal.innerHTML=e.target.value.toLowerCase();
 })
 
@@ -40,7 +45,7 @@ function camalfn(string) {
 
 function pascal(pascal){
    const arr=pascal.split(" ");
-   console.log(arr)
+//    console.log(arr)
   const pascalArr= arr.map((val,index)=>{
       // console.log(val)
       const firsval=val.slice(0,1).toUpperCase();
@@ -51,6 +56,54 @@ function pascal(pascal){
    })
    const finalResult = pascalArr.join(" ");
    return  pascalcase.innerHTML=finalResult;
+
+}
+function snake(snake){
+   const arr=snake.split(" ");
+//    console.log(arr)
+  const pascalArr= arr.map((val,index)=>{
+      // console.log(val)
+    //   const firsval=val.slice(0,1).toUpperCase();
+    //   const seconWord = val.slice(1,val.length).toLowerCase()
+    //   return firsval+seconWord;
+    return val;
+
+     
+   })
+   const finalResult = pascalArr.join("_");
+   return  snakecase.innerHTML=finalResult;
+
+}
+function kabab(kabab){
+   const arr=kabab.split(" ");
+//    console.log(arr)
+  const pascalArr= arr.map((val,index)=>{
+      // console.log(val)
+    //   const firsval=val.slice(0,1).toUpperCase();
+    //   const seconWord = val.slice(1,val.length).toLowerCase()
+    //   return firsval+seconWord;
+    return val;
+
+     
+   })
+   const finalResult = pascalArr.join("-");
+   return kababcase.innerHTML=finalResult;
+
+}
+function trim(trim){
+   const arr=trim.split(" ");
+//    console.log(arr)
+  const pascalArr= arr.map((val,index)=>{
+      // console.log(val)
+    //   const firsval=val.slice(0,1).toUpperCase();
+    //   const seconWord = val.slice(1,val.length).toLowerCase()
+    //   return firsval+seconWord;
+    return val;
+
+     
+   })
+   const finalResult = pascalArr.join("");
+   return trimcase.innerHTML=finalResult;
 
 }
 
