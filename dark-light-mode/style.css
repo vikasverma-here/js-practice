@@ -1,0 +1,13 @@
+
+
+
+#contained{
+    border: 2px solid blue;
+    padding: 32px;
+    margin-top: 20px;
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.76);
+     color: white;
+}
