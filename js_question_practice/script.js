@@ -80,3 +80,66 @@
 // }
 
 // console.log(`The largest number is: ${largestNumber}`);
+
+
+// trimm awhite spce from an string 
+
+// const string = "   hellow wrold    "
+// console.log(string)
+// const applytimethod = string.trim();
+// console.log(applytimethod)
+
+// const string = "hellowdear"
+// const subStr = ''
+// if(string.indexOf(subStr)!== -1){
+//     console.log("yess this sstring start with a substring")
+// }else{
+//     console.log("not start with a substring")
+// }
+
+// const string = 'hellow , w'
+// const str = 'w'
+
+// if (string.endsWith(str)){
+//     console.log(true)
+// }else {
+//     console.log(false)
+// }
+
+// const str = "vkas".repeat(10);
+// console.log(str)
+
+    // const string = 'vikasverma '
+    // const converted = string.split('')
+
+    // console.log(converted)
+
+    // const string = 'vikasverma'
+    // const convert = string.split('')
+    // console.log(convert)
+    // const reverse = convert.reverse().join("")
+   
+    // console.log(reverse)
+
+//    function palindrom(str){
+//     let cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+//     const reever = str.split('').reverse().join('')
+//     return str === reever
+//    }
+// console.log(palindrom('hellow'))
+
+// function vowel (str){
+
+  
+
+//     let vowel = ['a','i','o','u','e']
+//     let count = 0;
+//      str.split().map((val,i)=>{
+//         if (val === vowel[vowel.i]){
+//             count=count +1;
+//         }
+//     })
+// console.log(count)
+// }
+
+// console.log(vowel('vikas'))
