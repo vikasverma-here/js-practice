@@ -143,3 +143,52 @@
 // }
 
 // console.log(vowel('vikas'))
+
+// const arr = [1,2,3,4,5,6,]
+// const reverse = arr.reverse()
+// console.log(reverse)
+// const arr = [1,2,3,4,5,6]
+// console.log(arr.length-1)
+
+// const str = 'vikas '
+// const split = str.split('')
+// console.log(split)
+// let sum =0;
+// for (let i = 0;i<split.length;i++){
+//     if(split[i].includes('a','i','o','u')){
+//        sum=sum+i;
+       
+//     }
+    
+// }
+// console.log(sum)
+
+// function countval(str){
+//     str = str.toLowercase()
+//     const vowels =['a','i','o','u','e']
+//     let count = 0;
+//     for(let i =0; i<str.length;i++){
+//         if(vowels.includes(str[i])){
+//             count++
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countval('vikas'))
+
+// function countVowels(str) {
+//     str = str.toLowerCase();
+//     const vowels = ['a', 'e', 'i', 'o', 'u'];
+//     let count = 0;
+  
+//     for (let i = 0; i < str.length; i++) {
+//       if (vowels.includes(str[i])) {
+//         count++;
+//       }
+//     }
+  
+//     return count;
+//   }
+  
+//   console.log(countVowels('shivamverma')) 
