@@ -192,3 +192,144 @@
 //   }
   
 //   console.log(countVowels('shivamverma')) 
+
+// Iteratiove statement/loops 
+// Entry control loop
+// Exit Control 
+
+// Entry control loop are two type 
+// 1-for loop 
+// 2-while loop 
+
+// Exit control loop is one type 
+// 1-Do whiel loop 
+
+// while loop 
+// 1-Loop variable
+// 2-condition updation
+// 3-body Loop
+// 4- updation expresion
+
+// syntax 
+
+// let i = 1;
+// while(i<=20){
+//     console.log(i)
+//     i++;
+// }
+
+// Do while loop 
+ 
+// let i = 1;
+// do{
+//     console.log(i)
+//     i++;
+// }while(i<=19)
+
+//     console.log("loop end")
+
+// 3- for loop 
+
+// for(let i =0; i<=10 ; i++){
+//     console.log(i)
+// }
+
+// BREAK AND CONTINUE 
+
+// 1-CONTINUE STATEMENT 
+
+// for (let i=0; i<=20 ;  i++){
+//     if(i%2 !=0){
+//         continue; go to updation expression skip the below code
+//     }
+//     console.log(i)
+// }
+
+// 2- BREAK STATEMENT 
+
+// for(let i =1 ; i<=10; i++){
+//     if(i==6){
+//         console.log("loop is break ");
+//         break;
+//     }
+//     console.log(i)
+// }
+
+// question 1= sum of two number
+
+
+// let num=  +prompt ("number")
+// let num2= + prompt ("number")
+// let sum = num+num2;
+// console.log(sum)
+ 
+// WAP  a program to swap two number  
+
+// let a = 7;
+// let b= 3;
+// console.log("before swapping")
+// console.log(a , "a")
+// console.log(b , "b")
+// let temp = a;
+//  a = b;
+//  b = temp;
+//  console.log( "after swapping")
+//  console.log(a , "a")
+//  console.log(b , "b")
+
+// without  using third  variable 
+// let a = 7;
+// let b= 3;
+// console .log ("before withusing third variable  a :" ,a)
+// console .log ("before withoutusing third variable  b :" ,b)
+// a = a+b;
+// b=a-b;
+// a=a-b;
+// console .log ("after withoutusing third variable  a : " ,a)
+// console .log ("after withoutusing third variable   b :" ,b)
+
+
+
+// let length = +prompt("lenght")
+// let width = +prompt("width")
+// let area = length*width;
+// console.log( "Area is  ",area)
+// let parameter = 2*(length+width)
+// console.log ("parameter is " ,parameter)
+
+
+// WAP for Simple interest 
+
+// let p = +prompt("P")
+// let r = +prompt("r")
+// let t = +prompt("t")
+// let answer = (p*r*t/100)
+// console.log (answer)
+
+
+// accept the 3 sides of the triangle and find the area with herons formula 
+
+// let a = +prompt("enter the length of a ")
+// let b = +prompt("enter the length of b ")
+// let c = +prompt("enter the length of c")
+// let s = (a+b+c)/2;
+
+
+// let area = (s*(s-a)*(s-b)*(s-c))**0.5;
+
+// console.log(area)
+
+// find the circumference of the sphere
+
+// let a = +prompt("radius")
+
+// let areaOFsphere= 4*3.14*(a*a);
+// console.log(areaOFsphere)
+
+// find the area and parameter of circle
+
+let radius = +prompt("radius")
+let area = 3.14*(radius*radius)
+let parameter = 2*3.14*radius;
+console.log(" Area of circle is  " , area)
+console.log( "parameter of circle is ", parameter)
