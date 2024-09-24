@@ -313,10 +313,7 @@
 // let b = +prompt("enter the length of b ")
 // let c = +prompt("enter the length of c")
 // let s = (a+b+c)/2;
-
-
-// let area = (s*(s-a)*(s-b)*(s-c))**0.5;
-
+// let area = (s*(s-a)*(s-b)*(s-c))**0.5;  Math.sqrt() gives us suare root of element and .tofix(2) this method gives us two number after point 
 // console.log(area)
 
 // find the circumference of the sphere
@@ -328,8 +325,10 @@
 
 // find the area and parameter of circle
 
-let radius = +prompt("radius")
-let area = 3.14*(radius*radius)
-let parameter = 2*3.14*radius;
-console.log(" Area of circle is  " , area)
-console.log( "parameter of circle is ", parameter)
+// let radius = +prompt("radius")
+// let area = 3.14*(radius*radius)
+// let parameter = 2*3.14*radius;  we have Math.PI() that gives us a jvalue of pi
+// console.log(" Area of circle is  " , area)
+// console.log( "parameter of circle is ", parameter)
+
+
