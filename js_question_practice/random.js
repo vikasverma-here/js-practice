@@ -40,7 +40,15 @@
 // const multiply =(num1, num2) =>  num1*num2
 //   console.log(multiply(3,5))
 
-function print() {
-    console.log(arguments[0])
-  }
-  print("hello", 400, false)
+// function print() {
+
+//     console.log(arguments[0])
+//   }
+//   print("hello", 400, false)
+
+
+// function myBio( ...otherInfo) { 
+//    console.log(otherInfo)
+//   }
+
+//   console.log(myBio("vikas " , "verma ", "sgfgrg" , "srgreojgrigj", 'efhfuewhf'))
