@@ -321,4 +321,109 @@
 // console.log(a)
 // console.log(b)
 
-// !!!! non primitve datatype -----> mutible 
+// !!!! non primitve datatype -----> mutiable 
+
+
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!OBJECT IN JS ------------------------------------>
+
+// const userProfile = {
+//     name: "John Doe",
+//     age: 28,
+//     email: "john.doe@example.com",
+//     friends: [
+//       {
+//         name1: "Jane Smith",
+//         age: 26,
+//         email1: "jane.smith@example.com",
+//         greet: function () {
+//           console.log(`Hi, I'm ${this.name}`);
+//         }
+//       },
+//       {
+//         name2: "Michael Johnson",
+//         age2: 30,
+//         email2: "michael.j@example.com",
+//         greet: function () {
+//           console.log(`Hey, I'm ${this.name}`);
+//         }
+//       }
+//     ]
+
+// }
+
+// const {name,age , email } = userProfile
+// const {name1, email1,greet}=userProfile.friends
+// const {name2,age2,email2 }=userProfile
+
+// console.log(name)
+// console.log(name1)
+// console.log(age)
+// console.log(age2)
+// console.log(email)
+// console.log(email2)
+// console.log(greet)
+
+// *** creating 
+// *updating 
+//* deleting 
+//* reading 
+//* traversing 
+
+//* upper is very importent =============================
+
+//!! const userProfile1 = {
+//     name: "John Doe",
+//     age: 28,
+//     email: "john.doe@example.com"
+// }
+
+//!! update a property 
+
+// userProfile1.age=43;
+// userProfile1.name="vikas";
+
+// console.log(userProfile1.name)
+// console.log(userProfile1.age)
+
+//!! add new property 
+// userProfile1.city="bhopal";
+// userProfile1.country = "india";
+// console.log(userProfile1)
+
+// !!!!! delete 
+
+// !!!!! Traversing on object ------->
+//  const userProfile1 = {
+//     name: "John Doe",
+//     age: 28,
+//     email: "john.doe@example.com"
+// }
+// !!* for in val 
+// for(let access in userProfile1 ){
+//     console.log(access)
+// }
+
+// for(let getVal in userProfile1){
+//     console.log(getVal ,"=>", userProfile1[getVal] )
+// }
+
+// !!!!copying an object-----> 
+
+// const userProfile1 = {
+//         name: "John Doe",
+//         age: 28,
+//         email: "john.doe@example.com"
+//     }
+    // const userProfile3 = object.assign({},userProfile1)
+    // const userProfile2 = {...userProfile1}
+    // console.log(userProfile1)
+    // userProfile2.city = "mumbai"
+    // console.log(userProfile2)
+
+    // what we can not do 
+
+    // let userProfile3 = userProfile1 
+    // console.log(userProfile3)
+    // userProfile3.village = "scfu"
+    // console.log(userProfile1)
+
