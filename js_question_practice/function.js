@@ -280,3 +280,45 @@
 // }
 
 // ReferenceError: Cannot access 'printName' before initialization
+
+// !!!! declaretion and initialization 
+// var a ; declaretion 
+// a=10 intitliazation
+// compiler by default undefined value dal deta hai variable me  agr variable initialization
+
+// !!TEMPORAL DEAD JON ------->  Imporatant 
+
+// console.log (a)
+// let a= 3;
+
+// jab let  ya const  se variable declare  karte hai to compiler default me undefined value nahi dal pata jisse hume erro milta hia variable can not use before initialization our isi ke bich ke fase ko bolte hai temoraldead jon 
+
+// !!! function are fully hoisting------>/ 
+// old functtion jo ki function key word se likh se likh jata hai o fully hoisted hote hai junko hum bina banaye use kar sakte hai 
+// example --->
+
+// sum(4,5)
+// function summ (a,b){
+//     return a+b;
+// }
+
+// var = partialy hoisted 
+// let,const = temporal dead zone 
+// fnction = fully hoisted 
+
+// !!!! Arrow function are not fully hoisted qki ye ek anonymous function hai joki const variable me store hota hai joki temporal dead zone hai 
+
+// const add = (a,b)=>{
+//     return a+b;
+// }
+
+// !!!!! primetive datatype --->  immutable
+// immutable and prmitive and non primitive  (aisi value jinko change na kiya ja sake )
+// let a= 12;
+// let b= 13;
+// b=a;
+// b=14;
+// console.log(a)
+// console.log(b)
+
+// !!!! non primitve datatype -----> mutible 
