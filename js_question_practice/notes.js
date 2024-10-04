@@ -480,3 +480,64 @@
 //     console.log (this)
 // }
 // arrow()
+
+
+
+
+// !!!!! ARRAY IN JAVASCRIPT ----------------------------------->
+
+
+
+// creating an array 
+let arr = [2,3,2,3,2,2,1]
+// console.log(arr)
+
+// acessing the array 
+// console.log(arr[3])
+
+// using at access 
+// console.log(arr.at(-1))
+
+// updating the array 
+// arr[1]= 232;
+// console.log(arr)
+
+//  * NOTE: ye dono hi method array ki new length dete hai after adding the element in a original array 
+
+// push in array ;
+// let res1=  arr.push(1234 , 3221,22331)
+// console.log(res1)
+// console.log(arr)
+
+// unshift an array
+
+// let res2 = arr.unshift(12,12,12)
+// console.log(res2)
+// console.log(arr)
+
+// deleting element in an array ------------->
+
+
+
+// console.log(arr)
+
+// *jo number last se delete hoga wahi return karta hai pop our original array ko update bhi kar deta hai 
+// let res1=arr.pop()
+// console.log(res1)
+// console.log(arr)
+
+// *jo number start se delete hoga wahi return karta hai shift our original array ko update bhi kar deta hai 
+// let res2= arr.shift()
+// console.log(res2)
+// console.log(arr)
+
+// *first index se batata hai kha se delete karna hai our uske bad kitne element delete karna hai our whai value return kar dete hai 
+// let res3= arr.splice(2,1)
+// console.log(res3)
+// console.log(arr)
+
+
+// tarversing an array --->
+// for(const element of arr ){
+//     console.log(element)
+// }

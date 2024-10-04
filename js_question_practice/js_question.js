@@ -1,7 +1,7 @@
-function print() {
-    console.log(arguments[0])
-  }
-  print('helllow',false, 400)
+// function print() {
+//     console.log(arguments[0])
+//   }
+//   print('helllow',false, 400)
 
 //   const obj = {
 //     name: 'deeecode',
@@ -27,3 +27,4 @@ function print() {
 // }
 
 // obj.print()
+

@@ -1,1 +1,2 @@
-**normal function by default kuch chije apne parent yani ki browser se leke aata hai jabki arrow function nahi lata isliye arrow function jyada efficient hota hai 
+let arr = [2,3,2,3,2,2,1]
+// console.log(arr)
