@@ -13,17 +13,17 @@ function print() {
   
 //   obj.print()
 
-  const obj = {
-  name: 'deeecode',
-  age: 200,
-  village:"xyyz pur"
-  print: function() {
-    function print2() {
-      console.log(this)
-    }
+//   const obj = {
+//   name: 'deeecode',
+//   age: 200,
+//   village:"xyyz pur"
+//   print: function() {
+//     function print2() {
+//       console.log(this)
+//     }
 
-    print2()
-  }
-}
+//     print2()
+//   }
+// }
 
-obj.print()
+// obj.print()
