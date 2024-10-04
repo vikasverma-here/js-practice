@@ -16,6 +16,7 @@ function print() {
   const obj = {
   name: 'deeecode',
   age: 200,
+  village:"xyyz pur"
   print: function() {
     function print2() {
       console.log(this)
