@@ -427,3 +427,56 @@
     // userProfile3.village = "scfu"
     // console.log(userProfile1)
 
+//   !!! THIS KEYWORD ------------------->
+
+// const userProfile ={
+//     name : "Alex",
+//     getname: function (){
+//         console.log(this.name)
+//     }
+// }
+// userProfile.getname()
+
+
+// console.log("hellow")
+
+
+// !!! PURE AND IMPURE FUNCTION 
+
+// ** asie function  jo apne iscope se bahar ki value ko bina parameter ke use kre unhe impurefunction bolte hai our hume kabhi bhi impure function nahi use nahi karna chaahiye 
+
+// const userProfile ={
+//     name : "Alex",
+//     getname: function (){
+//         console.log(profile.name) yha ye impure function hai qki yha pe name ki value acces ho rhai hai jo ki scope ke bahr hai 
+//     }
+// }
+// userProfile.getname()
+
+
+// console.log("hellow")
+
+// !!!!! DIFFRENCE BETWEEN NORMAL FUNCTION AND ARROW FUNCTION ----->
+
+// **normal function by default kuch chije apne parent yani ki browser se leke aata hai jabki arrow function nahi lata isliye arrow function jyada efficient hota hai 
+
+// function greet(){
+//     console.log (this.window)
+//     console.log (arguments)
+//     console.log (globalThis)
+//     console.log (this)
+// }
+// greet()
+
+// console.log("-------------------------------------------------------------")
+
+
+// ***jabki arrow function in sab ko hold hi nahi karta hai 
+
+// const arrow = ()=>{
+//     console.log(this)
+//     console.log (arguments)
+//     console.log (globalThis)
+//     console.log (this)
+// }
+// arrow()
