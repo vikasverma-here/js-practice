@@ -153,3 +153,24 @@
 //     }
 //     console.log(reverse)
    
+
+// !!!!37- Accept a number and check if it is a pallindromic number (If number and its reverse are equal)
+// Ex - 12321 - Rerverse - 12321 --->
+
+// let number = +prompt("enter the number ")
+// let numStr= number.toString();
+// let reverse = "";
+// console.log( " original number = ",numStr)
+// for (let i= numStr.length-1;i>=0;i--){
+//   reverse = reverse+numStr[i];
+// }
+// console.log( " Reversed number = " , reverse )
+ 
+
+// if(numStr === reverse){
+//     console.log(numStr," rersed to  ",reverse , " after that number are same thats why number is polindrome  ")
+   
+// }
+// else{
+//     console.log(numStr," reversed to  ",reverse , " after that number are not same  thats why number is not  polindrome  ")
+// }
