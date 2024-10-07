@@ -489,7 +489,7 @@
 
 
 // creating an array 
-let arr = [2,3,2,3,2,2,1]
+// let arr = [2,3,2,3,2,2,1]
 // console.log(arr)
 
 // acessing the array 
@@ -541,3 +541,64 @@ let arr = [2,3,2,3,2,2,1]
 // for(const element of arr ){
 //     console.log(element)
 // }
+
+
+
+// !!TRAVERSING METHODS -------------------------------->
+
+// **FOR EACH VS MAP ------------>
+// for each a muteble  mmethod  hai qki ye array ke original form change kar paa rha hai 
+// arrow function kuch return nahi karega ===>
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// arr.forEach((element,index)=>{
+//     // console.log(element , index)
+//     arr[index]=element*2;
+  
+    
+// })
+
+// console.log(arr)
+
+
+
+// !!MAP method ==========================>
+// ye immutable method hai joki original array me change karta hai 
+// our ye array return bhi karta hai 
+    // let  arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//  let copyarr =    arr.map((element , index)=>{
+//  return element*2
+//     })
+
+// arr.map(function(element,index){
+//     console.log(element*2 , index)
+// })
+
+//     console.log(arr)0
+    // console.log(copyarr)
+
+
+
+    // !!! filter method in js =======>
+    //     let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    // const copy = arr.filter((Element,index)=>{
+    //     return Element%2==0;
+    // })
+    // console.log(copy)
+    // console.log(arr)
+
+    // !!! find and findindex =============>
+// *ye first true value deta hai 
+    //          let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    // const copy = arr.find((Element,index)=>{
+    //     return Element%2==0;
+    // })
+    // console.log(copy)
+    // console.log(arr)
+
+// !!findIndex==================>
+    // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    // const copy = arr.findIndex((Element,index)=>{
+    //     return Element%2==0;
+    // })
+    // console.log(copy)
+    // console.log(arr)
