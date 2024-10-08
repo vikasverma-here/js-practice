@@ -551,7 +551,7 @@
 // arrow function kuch return nahi karega ===>
 // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // arr.forEach((element,index)=>{
-//     // console.log(element , index)
+//     console.log(element , index)
 //     arr[index]=element*2;
   
     
@@ -562,9 +562,9 @@
 
 
 // !!MAP method ==========================>
-// ye immutable method hai joki original array me change karta hai 
+// ye immutable method hai joki original array me change NAHI  karta hai 
 // our ye array return bhi karta hai 
-    // let  arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//     let  arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //  let copyarr =    arr.map((element , index)=>{
 //  return element*2
 //     })
@@ -573,8 +573,9 @@
 //     console.log(element*2 , index)
 // })
 
-//     console.log(arr)0
+    // console.log(arr)
     // console.log(copyarr)
+    // console.log(arr)
 
 
 
@@ -602,3 +603,26 @@
     // })
     // console.log(copy)
     // console.log(arr)
+
+// !!! JOIN() maethos in js ==========================>
+//     const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//   let fruit = fruits.join(" * ")
+// console.log(fruit)
+
+// !!! concat methond merge arrays ============
+// const myGirls = ["Cecilie", "Lone"];
+// const myBoys = ["Emil", "Tobias", "Linus"];
+
+// const myChildren = myGirls.concat(myBoys);
+// console.log(myChildren)
+
+// console.log ([...myBoys,...myGirls])
+
+
+// const arr1 = ["Cecilie", "Lone"];
+// const arr2 = ["Emil", "Tobias", "Linus"];
+// const arr3 = ["Robin", "Morgan"];
+// const arr4 = ["Robin", "Morgan"];
+// const arr5 = ["Robin", "Morgan"];
+// const myChildren = arr1.concat(arr2, arr3,arr5,arr4);
+// console.log(myChildren)
