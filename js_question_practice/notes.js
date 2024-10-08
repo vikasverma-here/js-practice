@@ -626,3 +626,48 @@
 // const arr5 = ["Robin", "Morgan"];
 // const myChildren = arr1.concat(arr2, arr3,arr5,arr4);
 // console.log(myChildren)
+
+
+// !!!!!  INCLUDE SOME AND EVERY METHOD ===================================================================>
+
+    // ** let arr =[,3,2,34,2,3432,2,4,3,3,4,2,33,3,54,3,4,3]
+
+    //  includes(value_name , range) ye do number input le sakta hai lekin compulasary nahi hai ek hota hai jo value ko find karta hai our ek hota hai jo baatata hai kis index ke bad se check kargea our includes humesha boolean vaue dega 
+
+    //  console.log(arr.includes(34));
+    //  console.log(arr.includes(34 , 5));
+     
+
+
+
+//    * some  let arr =[,3,2,34,2,3432,2,4,3,3,4,2,33,3,54,3,4,3]  ek bhi true karegi to true ayega 
+    // let x = arr.some((value,index)=>{
+    //     return value%2==0;
+    // })
+    // console.log ( x)
+
+
+
+//  **EVERY method   let arr =[,3,2,34,2,3432,2,4,3,3,4,2,33,3,54,3,4,3]   isme sari value true hongi tabhi trueayega 
+//   let y = arr.every((value,index)=>{
+//     return value %2==0;
+//   })
+//   console.log(y)
+
+
+// **REDUCE METHOD ====================================>
+//     let arr = [3,3,43,53,5,5,4,4,3]
+// let s =arr.reduce((accumlator,current)=>{
+//     console.log(accumlator,current)
+//     return accumlator+current;
+// },0)
+
+// console.log(s)
+
+// !!! DESTRUCTURING IN JAVA SCRIPT ==============>
+
+    // let arr = [2,34,33,2,2,4,55,5,4,34,5]
+    // const [one , two ,  tre , four ,five ]=arr;
+    // let [ , , two1,three2 , four2 ]=arr;
+    // console.log(...arr)
+    // console.log(two1,three2)   
