@@ -671,3 +671,62 @@
     // let [ , , two1,three2 , four2 ]=arr;
     // console.log(...arr)
     // console.log(two1,three2)   
+
+
+    // !!! JSON AND ERROR HANDLING ================================================================================>
+
+
+// let arr  =[{},{},{},{}]
+// console.log (typeof (arr))
+
+// let resstr = JSON.stringify(arr)   converts object to string 
+// console.log( typeof( resstr))
+
+// let resjson= JSON.parse(resstr) converts object to string
+// console.log(typeof(resjson))
+
+
+
+// !!!!!  STRING ========================================>
+  
+
+    // ***string  mutable hai but replace our reassign jarur kar sakte hai 
+
+    // let s = "hello "
+
+    // console.log(s)
+    // console.log(s[2])
+    // console.log(s[4])
+    // console.log(s.at(1))
+
+    // !!! string can be reasigned 
+    // s = "hiii"
+    // console.log(s)
+
+    // s= null;
+    // console.log(s)
+
+    // !!! traversing string 
+
+    // let s = "hellow  my name "
+    // for(let i =0; i<s.length;i++){
+    //     console.log(i,s[i])
+    // }
+
+console.log("=====================>")
+
+    // for(let i=s.length; i>0;i--){
+    //     console.log(i,s[i])
+    // }
+
+    // !!!! string methods ==============>
+
+    // let s = "hellow-everyone"
+    // let x = s.slice(3,7)
+    // console.log(x)
+    // concat()
+    // replace()
+    // replceAll()
+    // toLocaluppercase()
+    // toLocaluppercase()
+    // DataTransferItem()
