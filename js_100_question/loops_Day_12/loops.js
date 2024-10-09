@@ -174,3 +174,84 @@
 // else{
 //     console.log(numStr," reversed to  ",reverse , " after that number are not same  thats why number is not  polindrome  ")
 // }
+
+
+// !!!!!38- Accept a number and check if it is a strong number or not (Sum of factorial of each digit)
+// Ex- 145 = 1! + 4! + 5! = 145  =================================================================================================>
+
+
+// function factorial(n){
+//     let fact =1;
+//     for(let i=1; i<=n;i++){
+//         fact = fact*i;
+//     }
+//     return fact;
+// }
+
+// function isstrong (num ){
+// let originalnum = num;
+// let sum =0;
+// while(num>0){
+//     let digit = num%10;
+//     sum = sum+factorial(digit)
+//      num = Math.floor(num/10) 
+
+// }
+// return sum ===originalnum;
+// }
+// let number= +prompt("enter the number ");
+// if (isstrong(number)){
+//     console.log(number ," number is strong ")
+// }else{
+//     console.log(number ,"number is weak")
+// }
+
+
+// !!! CHECK THE NUMBER IS AUTOMORFIC OR NOT ====================================>
+
+//     function isAutomorfic(number ){
+//         let multipy = number*number ;
+//         let mulStr = multipy.toString();
+//         let numStr = number.toString();
+     
+
+//       return mulStr.endsWith(numStr);
+//     }
+// let num = +prompt("enter the number to check automorfic")
+// if (isAutomorfic(num)){
+//     console.log(num ,"given number is automorfic because ", num*num)
+// }else{
+//     console.log(num,"given number is not automorfic because " , num*num)
+// }
+
+// !!! WEEKDAY USING SWITCH ==================>
+//     let day = prompt("Enter your day: ").toLowerCase();
+
+// switch (day) {
+//     case "monday":
+//         console.log("work");
+//         break;
+//     case "tuesday":
+//         console.log("work");
+//         break;
+//     case "wednesday":
+//         console.log("work");
+//         break;
+//     case "thursday":
+//         console.log("holiday");
+//         break;
+//     case "friday":
+//         console.log("work");
+//         break;
+//     case "saturday":
+//         console.log("work");
+//         break;
+//     case "sunday":
+//         console.log("holiday");
+//         break;
+//     default:
+//         console.log("Please enter a valid day");
+//         break;
+// }
+    
+    
