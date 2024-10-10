@@ -77,3 +77,42 @@
 //         alert(`${char} is a consonant`);
 //         break;
 // }
+
+
+// let randomnum =  Math.floor( Math.random()*100)
+// console.log(typeof(randomnum))
+
+// let input=+prompt("enter the number")
+// while(randomnum !==input){
+    
+//     if(input>randomnum){
+//         alert("number is two low ")
+//     }else if ( input<randomnum){
+//         alert("number is two high ")
+//     }
+//     input=+prompt("enter the number again ")
+// }
+
+
+// alert ("number is creect ")
+
+
+
+// let randomnum = Math.floor(Math.random() * 100);
+// console.log(randomnum);  
+
+// let input = +prompt("Enter the number");
+
+// while (randomnum !== input) {
+//     if (input > randomnum) {
+//         alert("The number is too high");
+//     } else if (input < randomnum) {
+//         alert("The number is too low");
+//     }
+    
+   
+//     input = +prompt("Enter the number again");
+// }
+
+
+// alert("Your guess is correct!");
