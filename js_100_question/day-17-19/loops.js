@@ -116,3 +116,74 @@
 
 
 // alert("Your guess is correct!");
+
+
+// !!!! LETS SOLVE SOME PATTERN QUESTION IN JS  =================================================================================>
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+
+// sollution 
+
+
+// for (let row=1; row<6;row++){
+//   let   pattern= '';
+//     for(let col=1; col<=row;col++ ){
+//        pattern = pattern+'*'
+//     }
+//     console.log(pattern)
+// }
+
+
+// method two ----------------------------------------------------------------->
+
+// for(let i=0;i<=6;i++){
+//     console.log("*".repeat(i))
+// }
+
+// method three---------------------------------------------------------------->
+// function printFunction(row){
+//     for(let i=1;i<=row; i++){
+//         console.log("*".repeat(i))
+//     }
+// }
+// printFunction(5)
+// console.log("=================================================>")
+// printFunction(3)
+// console.log("=================================================>")
+// printFunction(7)
+
+
+//! ==============================================================!!==================================>
+    // function printRownum(triangle){
+    //     for(let i=1;i<=triangle;i++){
+    //         let rownum="  ";
+    //         for(j=1;j<=i;j++){
+    //           rownum=rownum+j+" ";
+    //         }
+    //         console.log(rownum)
+    //     }
+    // }
+
+    // printRownum(10 )
+
+
+//    ! 48- Right Triangle - Alphabet  ===========================================================================>
+	// A
+	// A B
+	// A B C
+	// A B C D
+	// A B C D E
+
+    function printAlphabet(alpha){
+        for(let i=1;i<=alpha;i++){
+            let char= 'A';
+            for(let j=1;j<=alpha;j++){
+                char = char+j+" ";
+            }
+            console.log(char)
+        }
+    }
+printAlphabet(4)
