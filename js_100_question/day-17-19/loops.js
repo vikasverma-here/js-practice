@@ -177,13 +177,33 @@
 	// A B C D
 	// A B C D E
 
-    function printAlphabet(alpha){
-        for(let i=1;i<=alpha;i++){
-            let char= 'A';
-            for(let j=1;j<=alpha;j++){
-                char = char+j+" ";
-            }
-            console.log(char)
-        }
-    }
-printAlphabet(4)
+//     function printAlphabet(alpha){
+//         for(let i=1;i<=alpha;i++){
+//             let char= '';
+//             for(let j=1;j<=i;j++){
+//                 char = char+String.fromCharCode(64+j)+" ";
+//             }
+//             console.log(char)
+//         }
+//     }
+// printAlphabet(9)
+
+
+// !49- Inverted Right Triangle
+// 	* * * * *
+// 	* * * *
+// 	* * *
+// 	* *
+// 	*
+
+// function inverterd(prop){
+//     for(let i=prop; i>=1; i--){
+//         let pattern = '';
+//         for(let j=1; j<=i; j++){
+           
+//   pattern=pattern+"*"
+//         }
+//         console.log(pattern)
+//     }
+// }
+// inverterd(5)
