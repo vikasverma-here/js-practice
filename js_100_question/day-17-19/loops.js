@@ -207,3 +207,39 @@
 //     }
 // }
 // inverterd(5)
+
+
+// !!!! 50- Mirrored Right Triangle
+//         *
+//       * *
+//     * * *
+//   * * * *
+// * * * * *
+
+
+// function mirrored(prop) {
+//     for (let i = 1; i <= prop; i++) {
+//         let space = "";
+//         for (let j = 1; j <= prop - i; j++) {
+//             space += " "; 
+//         }
+
+//         let pattern = '';
+//         for (let s = 1; s <= i; s++) {
+//             pattern += "*";  
+//         }
+
+//         console.log(space + pattern); 
+//     }
+// }
+
+// mirrored(5);  
+
+
+// !!!51- Triangle =========================================================================================>
+// 	    *
+// 	   * *
+// 	  * * *
+// 	 * * * *
+// 	* * * * *
+
