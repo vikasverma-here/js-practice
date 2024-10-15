@@ -66,3 +66,43 @@
 //     console.log("something went wrong ")
 // }
 // }
+
+
+// !!!! ASYNCRONUS NATURE OF JS ==================================================>
+// **setTimeout 
+    // console.log(2)
+
+    // setTimeout(() => {
+    //     console.log(5)
+    // }, 3000);
+
+    // console.log(33)
+
+// *setTimeout 
+    // console.log(2)
+
+    // setInterval(() => {
+    //     console.log(5)
+    // }, 1000);
+
+    // console.log(33)
+
+    // ** clearIntervall
+
+    // let count =1;
+    // const itnervafunction = setInterval(() => {
+    //     if(count==10){
+    //         clearInterval(itnervafunction)
+    //         console.log("now the code is over ")
+    //     }
+
+    //     console.log(count)
+    //     count = count+1;
+      
+
+    // }, 1000);
+   
+
+    // !!!! PROMISSES IN JS ==========================================================>
+
+ 
