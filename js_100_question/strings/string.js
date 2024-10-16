@@ -104,5 +104,51 @@
    
 
     // !!!! PROMISSES IN JS ==========================================================>
+// *promisses are used to handle the error of async code 
 
- 
+
+
+
+
+
+
+
+
+    // !!! all about fetch ===============================>
+
+//  fetch ("https://jsonplaceholder.typicode.com/posts")
+//         .then((data)=>data.json())
+//         .then((res)=>console.log(res))
+//         .catch((err)=> console.log(err))
+
+
+
+//  !!!! ALL ABOUT ASYNC AWAIT ===================================>
+let container = document.getElementById("container")
+let loader = document.getElementById("loader");
+async function getPost(){
+    try{
+
+        loader.classList.remove("hidden");
+        const stringData = await fetch("https://jsonplaceholder.typicode.com/posts")
+        const jsonData = await stringData.json()
+        console.log(jsonData)
+        loader.classList.add("hidden");
+        jsonData.forEach(element => {
+            let titlename = document.createElement("h3")
+            let paraname = document.createElement("p")
+            titlename.innerHTML=element.title;
+            paraname.innerHTML=element.body;
+            container.appendChild(titlename)
+            container.appendChild(paraname)
+
+
+        });
+       
+
+    }catch(erro){
+        console.log(erro)
+        loader.classList.add("hidden");
+    }
+}
+getPost()
