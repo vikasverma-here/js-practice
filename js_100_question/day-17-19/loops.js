@@ -242,4 +242,75 @@
 // 	  * * *
 // 	 * * * *
 // 	* * * * *
+// let number = 5;
+// for(let i=1; i<=number; i++){
+// let space = '';
+// for(let str = 1; str<=number-i;str++){
+//     space = space+" ";
+// }
+// for(let star=1;star<=i;star++){
+// space = space+" *";
+// }
+// console.log(space)
+// }
+
+
+//  !! 52- V - Min Height = 3  ===========================================================================================>
+// 		*       * 
+// 		 *     *  
+// 		  *   *   
+// 		   * *    
+// 		    * 
+// let height = 5;  // Adjust height here (must be >= 3)
+
+// for (let i = 0; i < height; i++) {
+//     let line = '';
+
+//     // Print spaces before the first star
+//     for (let j = 0; j < i; j++) {
+//         line += ' ';
+//     }
+
+//     // Print the first star
+//     line += '*';
+
+//     // Print spaces between the two stars
+//     for (let k = 0; k < 2 * (height - i - 1) - 1; k++) {
+//         line += ' ';
+//     }
+
+//     // Print the second star, except for the last row
+//     if (i != height - 1) {
+//         line += ' *';
+//     }
+
+//     console.log(line);
+// }
+
+
+// ! 53- Print x d=================================================================>
+// 		*        *
+// 		  *   *
+// 		    *
+// 		 *     *
+// 	   *          *
+
+// let height = 5;
+
+// for (let i = 0; i < height; i++) {
+//     let line = '';
+
+//     for (let j = 0; j < height; j++) {
+//         if (j == i || j == height - i - 1) {
+//             line += '*';
+//         } else {
+//             line += ' ';
+//         }
+//     }
+
+//     console.log(line);
+// }
+
+
+
 
