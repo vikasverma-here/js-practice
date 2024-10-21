@@ -85,19 +85,93 @@
 // console.log(reverseArray)
 
 // !!59- Array left Rotation by 1
+
+
 // let arr = [1,2,3,4,4,56,7,7,12]
-// let temp=arr[0]
+// // let temp=arr[0]
 
 // for (let i = 0; i < arr.length-1; i++) {
 //    arr[i]=arr[i+1]    
 // }
-//  arr[arr.length-1]=temp
+// console.log (arr)
+
+
+
+// !!60- Array left rotation by K elements
+// let k = +prompt("enter the number of rotation ")
+// let arr = [3,4,31,42,43,2,4,22,34,]
+
+// let n = arr.length;
+// k=k/n
+
+// let endArr =arr.slice(3)
+// let startArr = arr.slice(0,3)
+
+// let rotation = endArr.concat(startArr)
+// console.log(arr)
+// console.log(rotation)
+
+
+// !!61- Array Reverse Without Using Extra space
+
+// let arr = [3,4,5,6,7,8,86,5,44,33]
+// console.log(arr)
+// let left = 0
+// let right = arr.length-1;
+// while(left<right){
+//    let temp= arr[left]
+//    arr[left]=arr[right]
+//    arr[right]=temp
+//    left++;
+//    right--;
+// }
 // console.log(arr)
 
-let arr = [1,2,3,4,4,56,7,7,12]
-// let temp=arr[0]
 
-for (let i = 0; i < arr.length-1; i++) {
-   arr[i]=arr[i+1]    
-}
-console.log (arr)
+// !!!62- Linear Search an array - If element found print the index else -1
+
+// let arr = [4,3,42,34,32,2,3,34,43,23,34,4,23,34,32,32,23,23]
+// let findNum = +prompt("enter the number two find in array ")
+// function findtheNumber (findNum){
+//    for (let i=0; i<=arr.length-1;i++){
+//       if (arr[i]===findNum){
+//       return i;
+//       }
+//       }
+//       return -1;
+// }
+
+// console.log(findtheNumber(findNum))
+
+// !!!63- Binary Search. If element found print the index else -1
+
+// let findElement = 6;
+
+// function BinarySearch (findElement){
+//    let arr = [24,23,446,6,767,87,66,5,453,43]
+//  arr.sort((a,b)=> a-b)
+// console.log(arr)
+// let start=0; 
+// let end = arr.length-1;
+
+//    while(start<end ){
+//       let mid = Math.floor((start+end)/2 ) 
+//       if(arr[mid]==findElement){
+//          return mid;
+//       }else if(arr[mid]>findElement){
+//          end = mid-1;
+//       }else{
+//          start=mid+1;
+//       }
+//    }
+//    return -1;
+// }
+
+// console.log(BinarySearch(findElement))
+
+
+// !!!! Bubble sort =========================================================>
+// let arr = [87, 35, 12, 59, 67, 99, 21, 45, 76, 11]
+// for(let i =0; i<=arr.length; i++){
+//     for(let j=0; )
+// }
