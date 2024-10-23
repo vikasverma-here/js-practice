@@ -1,0 +1,37 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+}
+html,body {
+width: 100%;
+height: 100%;
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px ;
+    font-size: 30px;
+    font-weight: 800;
+    transition: 1s;
+    
+
+
+}
+.close{
+    display: none;
+}
+ul{
+    display: flex;
+    gap: 20px;
+  padding-left: 50%;
+
+}
+ul>li{
+    list-style: none;
+}
